@@ -1,0 +1,13 @@
+/* EXTERNAL CSS FOR 3RD PARAGRAPH AND FOR DIV */
+
+.container{
+    width:1350px;
+    height: 290px;
+    background-color: grey;
+}
+
+.external{
+    font-size: 48px;
+    background-color: green;
+    color: yellow;
+}
