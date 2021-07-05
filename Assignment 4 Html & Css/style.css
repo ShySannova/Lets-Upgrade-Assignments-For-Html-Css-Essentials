@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* css for header  */
+
+.header{
+    height: 90px;
+    width: 100%;
+    /* background-color: rgba(16, 128, 234, 1); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+
+}
+
+.header_container{
+    justify-content: space-between;    
+}
+.logo img{
+    height: 65px;
+    width: 48%;
+    border-top-left-radius: 48%;
+    border-bottom-right-radius: 38%;
+    padding-right: 8px;
+    padding-top: 8px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.logo{
+    height: 80px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 26px;
+    font-family: segoe UI;
+    text-align: left;
+    font-weight: bold;
+    color:  yellow;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.nav{
+    height: 90px;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+}
+
+
+.nav-item{
+    width: 20%;
+    height: 90px;
+    /* background-color: gray; */
+    font-family: segoe UI;
+    font-weight: bold;
+    text-align: center;
+    line-height: 90px;
+    color: yellow;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.nav-item:hover {
+    background-color: rgba(236, 5, 5, 0.5);
+    color: rgb(16, 16, 17);
+    
+}
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    /* background-color: gray; */
+    background-size: cover;
+    background-image: url('./images/b1.jpg');
+}
+
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+    height: 350px;
+    width: 50%;
+    background-color: rgba(236, 5, 5, 0.5);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color: yellow;
+}
+
+.banner_title{
+    font-size: 50px;
+    margin-bottom: 15px;
+    
+}
+
+.banner_desc{
+    margin-bottom: 30px;
+}
+
+.padd{
+    padding: 50px;
+    /* background-color: red; */
+}
+
+.banner_btn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: yellow;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: segoe ui;
+    border:3px solid yellow;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.banner_btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(16, 234, 100);
+}
+
+/* css for programs  */
+
+.programs{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+    color: rgb(136, 255, 0);
+}
+
+.programs_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.program{
+    height: 400px;
+    width: 47%;
+    background-color:  rgba(236, 5, 5, 0.5);
+    display: flex;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid yellow;
+}
+
+
+.program_img{
+    width: 40%;
+    height: 400px;
+    /* background-color: blue; */
+    display: flex;
+    overflow: hidden;
+    border-radius: 12px;
+    border-right: 3px solid yellow;
+}
+
+.program_details{
+    width: 60%;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.program_padd{
+    padding: 20px;
+}
+
+
+.program_btn{
+
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(27, 41, 240, 0.904);
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.program_title{
+    margin-bottom: 15px;
+}
+
+.program_desc{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
